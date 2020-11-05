@@ -29,6 +29,7 @@ RUN apt-get update && apt-get install -y \
   libonig-dev \
   libgmp-dev \
   graphviz \
+  git \
   && rm -rf /var/lib/apt/lists/*
 
 RUN cd /usr/bin && ln -s s-nail heirloom-mailx
