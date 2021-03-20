@@ -1,4 +1,4 @@
-# php-fpm 7.4x
+# php-fpm 8.0x
 
 This php-fpm container is meant to be used together with a webserver and database container.
 It serves the service internally on port 9000.
